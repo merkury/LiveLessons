@@ -52,7 +52,7 @@ public class DownloadWithAsyncTask implements ButtonStrategy {
         /**
          * Download a bitmap image in a background thread.
          * 
-         * @param params
+         * @param urls
          *            The url of a bitmap image
          *
          @ @return The Bitmap representation of the downloaded image.

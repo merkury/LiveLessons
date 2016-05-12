@@ -1,10 +1,10 @@
 package edu.vuum.mocca;
 
-import java.lang.ref.WeakReference;
-
 import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Message;
+
+import java.lang.ref.WeakReference;
 
 /**
  * @class DownloadWithMessages
@@ -62,7 +62,7 @@ public class DownloadWithMessages implements ButtonStrategy {
                 // display the image.
                 messageHandler.sendMessage(msg);
             }
-            };
+        };
 
         // Create and Start a new Thread to perform the download and
         // display the results to the user.
