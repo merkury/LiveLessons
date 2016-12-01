@@ -75,7 +75,7 @@ public class DownloadWithAsyncTask implements ButtonStrategy {
             // Display the downloaded image to the user.
             mDownloadContext.displayImage(image);
         }
-    };
+    }
 
     /**
      * Create and execute an AsyncTask that downloads the image in a

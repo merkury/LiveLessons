@@ -1,9 +1,5 @@
 package edu.vuum.mocca;
 
-import java.io.InputStream;
-import java.lang.ref.WeakReference;
-import java.net.URL;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,6 +10,10 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import java.io.InputStream;
+import java.lang.ref.WeakReference;
+import java.net.URL;
 
 /**
  * @class DownloadContext
@@ -64,9 +64,9 @@ class DownloadContext {
                            ImageView imageView,
                            Activity activity,
                            Runnable completionCommand) {
-        mUrlEditText = new WeakReference<EditText>(editText);
-        mImageView = new WeakReference<ImageView>(imageView);
-        mActivity = new WeakReference<Activity>(activity);
+        mUrlEditText = new WeakReference<>(editText);
+        mImageView = new WeakReference<>(imageView);
+        mActivity = new WeakReference<>(activity);
         mCompletionCommand = completionCommand; // new WeakReference<Runnable>(completionCommand);
     }
 

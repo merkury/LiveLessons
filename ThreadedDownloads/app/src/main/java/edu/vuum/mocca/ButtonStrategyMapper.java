@@ -8,9 +8,9 @@ import android.util.SparseArray;
  * @brief Maps buttons (represented via their resource ids) to
  *        ButtonStrategy implementations.
  */
-public class ButtonStrategyMapper {
-    private SparseArray<ButtonStrategy> mButtonStrategyArray =
-        new SparseArray<ButtonStrategy>();
+class ButtonStrategyMapper {
+    private final SparseArray<ButtonStrategy> mButtonStrategyArray =
+            new SparseArray<>();
             
     public ButtonStrategyMapper(int[] buttonIds,
                                 ButtonStrategy[] buttonStrategys) {

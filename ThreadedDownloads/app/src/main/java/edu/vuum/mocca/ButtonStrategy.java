@@ -1,7 +1,7 @@
 package edu.vuum.mocca;
 
 /**
- * @class ButtonStrategy
+ * @interface ButtonStrategy
  *
  * @brief Implement this interface to define the concurrency strategy
  *        used to download and display an image when the user clicks a
